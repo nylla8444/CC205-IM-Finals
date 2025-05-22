@@ -5,5 +5,4 @@ CREATE TABLE ADMIN (
     adminCode INT,
     createdAt DATETIME,
     updatedAt DATETIME,
-    __v INT
 );

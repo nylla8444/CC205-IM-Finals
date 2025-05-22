@@ -15,7 +15,5 @@ CREATE TABLE donation_settings (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     
-    __v INT DEFAULT 0,
-    
     FOREIGN KEY (organization_id) REFERENCES organizations(user_id) ON DELETE CASCADE
 );
